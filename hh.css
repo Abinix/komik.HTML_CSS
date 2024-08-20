@@ -1,0 +1,114 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+    background: #ff6a3d;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manhwa {
+   margin-right: auto;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.manhwa:hover {..
+    color: #020202;
+    transform: rotate(2deg);
+
+}
+
+.btn {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6x 12x;
+    background: #ff5f02;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+li a{
+    transition: all .5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover{
+    color: #020202;
+    transform: rotate(2deg);
+
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img{
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.asli {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cok {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.aa {
+    border: 2px solid #000;
+    margin: 10px;
+}
